@@ -1,1 +1,1 @@
-# JavaScript programming language 
+# Beginning JavaScript, 5th Edition
