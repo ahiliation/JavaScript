@@ -1,1 +1,1 @@
-# Beginning JavaScript
+# JavaScript Programming Language
