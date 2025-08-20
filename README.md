@@ -1,3 +1,3 @@
 # Beginning JavaScript, 5th Edition (Unofficial)
 
-## Modified/Unmodified and New code related to Original Book
+<span style="font-size: 20px;"> Modified/Unmodified and New code related to Original Book</span>
