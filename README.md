@@ -1,1 +1,1 @@
-# Beginning JavaScript, 5th Edition
+# Beginning JavaScript
