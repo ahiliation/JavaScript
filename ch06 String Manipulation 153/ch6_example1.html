@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Chapter 6, Example 1</title>
+</head>
+    <body>
+        <script>
+            var values = prompt("Please enter a set of comma separated values.",
+                "Apples,Oranges,Bananas");
+
+            function splitAndReverseText(csv) {
+                var parts = csv.split(",");
+		   //  <br>
+		 //   document.write("parts");
+                alert(parts.reverse());
+                alert(parts.join(","));
+                var reversedString = parts.join(",");
+		if (parts.reverse() == reversedString) {
+		    alert ("problem");
+		} else {
+		    alert("okay");
+                }
+               alert("Final..."+reversedString);
+            }
+
+            splitAndReverseText(values);
+        </script>
+    </body>
+</html>
