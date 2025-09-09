@@ -8,10 +8,8 @@
     <script>
         var myListString = "apple, 0.99, banana, 0.50, peach, 0.25, orange, 0.75";
         var theRegExp = /[^a-z]+/i;
-      var myFruitArray = myListString.split(theRegExp);
+        var myFruitArray = myListString.split(theRegExp);
 
-      //   document.write(myFruitArray); <br>
-      
         document.write(myFruitArray.join("<br />"));
     </script>
 </body>
