@@ -1,2 +1,2 @@
-# Beginning Web, 1st Edition )
+# Beginning Web, 1st Edition 
 
