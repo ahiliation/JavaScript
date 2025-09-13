@@ -1,3 +1,3 @@
-# Beginning Web, 1st Edition 
+# Beginning Web, First Edition 
 
-### Work in progress
+WORK IN PROGRESS
