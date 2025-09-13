@@ -1,3 +1,2 @@
-# Beginning JavaScript, 5th Edition (Unofficial)
+# Beginning Web, 1st Edition )
 
-Modified/Unmodified and New code related to Original Book (Work in Progress)
