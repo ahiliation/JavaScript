@@ -2,10 +2,15 @@
 
 <html lang="en">
 <head>
-    <title>Chapter 9, Example 4</title>
+    <title>Chapter 9, Example 5</title>
     <style>
         #divAdvert {
             font: 18pt arial;
+        }
+
+        .new-style {
+            font-style: italic;
+            text-decoration: underline;
         }
     </style>
 
@@ -16,9 +21,8 @@
     </div>
 
     <script>
-        var divAdvertisement = document.getElementById("divAdvert");
-        divAdvertisement.style.fontStyle = "italic";
-        divAdvertisement.style.textDecoration = "underline";
+        var divAdvert = document.getElementById("divAdvert");
+        divAdvert.className = "new-style";
     </script>
 
 </body>
