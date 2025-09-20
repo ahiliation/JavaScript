@@ -2,11 +2,11 @@
 
 <html lang="en">
 <head>
-    <title>Chapter 10: Example 1</title>
+    <title>Chapter 10: Example 2</title>
 </head>
 <body>
-    <img src="usa.gif" onclick="changeImg(this)" />
-    <img src="mexico.gif" onclick="changeImg(this)" />
+    <img src="usa.gif" onclick="changeImg(event)" />
+    <img src="mexico.gif" onclick="changeImg(event)" />
 
     <script>
         var myImages = [
@@ -15,15 +15,17 @@
             "jamaica.gif",
             "mexico.gif"
         ];
-      document.write(typeof myImages); // DEBUG
-        function changeImg(that) {
+
+        function changeImg(e) {
+            var el = e.target;
+	//    document.write(el); DEBUG 
             var newImgNumber = Math.round(Math.random() * 3);
-          //  document.write(newImgNumber); // DEBUG
-            while (that.src.indexOf(myImages[newImgNumber]) != -1) {
+
+            while (el.src.indexOf(myImages[newImgNumber]) != -1) {
                 newImgNumber = Math.round(Math.random() * 3);
             }
 
-            that.src = myImages[newImgNumber];
+            el.src = myImages[newImgNumber];
         }
     </script>
 </body>
