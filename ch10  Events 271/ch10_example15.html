@@ -19,6 +19,7 @@
 
         function changeImg(e) {
             var el = e.target;
+	    document.write(" DEBUG Show " + e.target);
             var newImgNumber = Math.round(Math.random() * 3);
 
             while (el.src.indexOf(myImages[newImgNumber]) != -1) {
