@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Chapter 13: Example 2a</title>
+</head>
+<body>
+    <h1>Welcome to Example 2a</h1>
+
+    <div id="whatsNew"></div>
+
+    <script src="cookiefunctions.js"></script>
+    <script>
+        var lastUpdated = new Date("Tue, 28 Oct 2029");
+        var lastVisit = getCookieValue("LastVisit");
+        document.write(lastUpdated);
+        document.write("\n");
+        document.write(lastVisit);
+        
+       if (lastVisit) {
+           lastVisit = new Date(lastVisit);
+	   document.write("\n");
+	   document.write(lastUpdated);
+	   document.write("\n");
+           document.write(lastVisit);
+            if (lastVisit < lastUpdated) {
+                document.getElementById("whatsNew").innerHTML = "<a href='ch13_example2b.html'>What's New?</a>";
+            }
+        }
+
+        var now = new Date();
+        setCookie("LastVisit", now.toUTCString());
+    </script>
+
+</body>
+</html>
