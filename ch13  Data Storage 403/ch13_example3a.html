@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Chapter 13: Example 3a</title>
+</head>
+<body>
+    <h1>Welcome to Example 3a</h1>
+
+    <div id="whatsNew"></div>
+
+    <script>
+        var lastUpdated = new Date("Tue, 28 Oct 2026");
+        var lastVisit = localStorage.lastVisit;
+  //    document.write(typeof localStorage); DEBUG
+   //   document.write(typeof lastVisit);    DEBUG
+        if (lastVisit) {
+            lastVisit = new Date(lastVisit);
+
+            if (lastVisit < lastUpdated) {
+                document.getElementById("whatsNew").innerHTML = "<a href='ch13_example3b.html'>What's New?</a>";
+            }
+        }
+
+        localStorage.lastVisit = new Date();
+    </script>
+</body>
+</html>
