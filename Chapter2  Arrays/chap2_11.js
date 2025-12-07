@@ -6,7 +6,7 @@ for (var col = 0; col < grades.length; ++col) {
    for (var row = 0; row < grades[col].length; ++row) {
    //    console.log(grades[col].length);
        //  console.log(col);
-       console.log([row][col]);
+       console.log(grades[row][col]);
        total += grades[row][col];
    }
 
