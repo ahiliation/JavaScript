@@ -5,7 +5,7 @@ var average = 0.0;
 for (var row = 0; row < grades.length; ++row) {
    for (var col = 0; col < grades[row].length; ++col) {
      //  console.log(grades[row].length);
-       //  console.log(row);
+     //    console.log(row);
        console.log(grades[row][col]);
        total += grades[row][col];
    }
