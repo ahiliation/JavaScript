@@ -52,7 +52,6 @@ function depthFirstSearchRecursive(startNode) {
     })(startNode); // Immediately invoke the inner function with the start node
 
     return result;
-
 }
 
 // Example: Search the graph starting from 'A'
