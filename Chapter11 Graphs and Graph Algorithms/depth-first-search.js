@@ -49,7 +49,8 @@ function depthFirstSearchRecursive(startNode) {
                 dfs(neighbor);
             }
         }
-    })(startNode); // Immediately invoke the inner function with the start node
+    })
+    (startNode); // Immediately invoke the inner function with the start node
 
     return result;
 }
