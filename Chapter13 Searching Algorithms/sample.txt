@@ -1,0 +1,3 @@
+Hello world
+Node.js is great
+Nodejs text search example
