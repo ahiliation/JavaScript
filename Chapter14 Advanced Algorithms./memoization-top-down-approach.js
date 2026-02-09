@@ -1,6 +1,7 @@
 function fibonacciMemo(n, memo = {}) {
+    //    console.log(n in memo);
     if (n in memo) {
-	console.log(n in memo);
+//	console.log(n in memo);
 //	console.log(memo);
     return memo[n];
   }
@@ -9,7 +10,8 @@ function fibonacciMemo(n, memo = {}) {
   }
 
   // Compute and store the result in the memo object
-  memo[n] = fibonacciMemo(n - 1, memo) + fibonacciMemo(n - 2, memo);
+    memo[n] = fibonacciMemo(n - 1, memo) + fibonacciMemo(n - 2, memo);
+   //  console.log(memo);
   return memo[n];
 }
 
