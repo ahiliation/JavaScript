@@ -8,4 +8,7 @@ let evens = numbers.filter(n => n % 2 === 0); // [2, 4]
     console.log(evens);
     let sum = numbers.reduce((acc, curr) => acc + curr, 0); // 15
     console.log(sum);
+    var number = [{nn: 1},{nn:2}];
+    let total = number.reduce((acc, curr) => acc + curr.nn, 0);
+    console.log(total);
 }
