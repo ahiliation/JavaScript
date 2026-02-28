@@ -6,6 +6,7 @@ const rl = readline.createInterface({
 var name;
 var names = ["David","Cynthia","Raymond","Clayton","Jennifer"];
 
+
 rl.question('Please enter your name: ', (name) => {
   console.log(`Hello, ${name}!`);
 
