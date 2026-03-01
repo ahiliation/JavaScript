@@ -1,7 +1,9 @@
 var names = ["David","Mike","Cynthia","Raymond","Clayton","Mike","Jennifer"];
-var name = "Davi";
+var name = "Mike";
+// console.log(name);
 var firstPos = names.indexOf(name);
-if (firstPos = -1) {
+// console.log(firstPos);
+if (firstPos == -1) {
     console.log("Given name not found in the array");
 }
 else
