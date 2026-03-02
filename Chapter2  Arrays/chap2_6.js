@@ -1,13 +1,15 @@
-function isEven(num) {
-   return num % 2 == 0;
+function isOdd(num) {
+  //  console.log(num % 2 == 0);
+   return num % 2 != 0;
 }
 
-var nums = [2,4,6,8,10];
-var even = nums.every(isEven);
-console.log(typeof even);  // debug
-if (even) {
-   console.log("all numbers are even");
+var nums = [1,3,5,7,9];
+// var even = nums.every(isEven);
+var odd  = nums.every(isOdd);
+// console.log(nums);  // debug
+if (odd) {
+   console.log("all numbers are odd");
 }
 else {
-   console.log("some numbers are odd");
+   console.log("all numbers are not odd");
 }
