@@ -8,6 +8,7 @@ for (var row = 0; row < grades.length; ++row) {
      //    console.log(row);
        console.log(grades[row][col]);
        total += grades[row][col];
+   //    console.log(total);
    }
    average = total / grades[row].length;
    console.log("Student " + parseInt(row+1) + " average: " +    
