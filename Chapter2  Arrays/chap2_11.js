@@ -11,7 +11,8 @@ for (var col = 0; col < grades.length; ++col) {
    }
 
 
-   average = total / grades[col].length;
+    average = total / grades[col].length
+    console.log(grades[col].length);
    console.log("Test " + parseInt(col+1) + " average: " + 
          average.toFixed(2));
    total = 0;
