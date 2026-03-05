@@ -4,7 +4,8 @@ var average = 0.0;
 for (var row = 0; row < grades.length; ++row) {
    //  console.log(grades.length);
     for (var col = 0; col < grades[row].length; ++col) {
-//	console.log(grades[row].length);
+	//	console.log(grades[row].length);
+//	console.log(row,col);
       total += grades[row][col];
    }
    average = total / grades[row].length;
