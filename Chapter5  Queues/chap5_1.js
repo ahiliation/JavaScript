@@ -10,6 +10,7 @@ queue.push("b");
 queue.push("c");
 
 console.log("Initial queue:", queue.toArray());
+console.log(queue);
 
 // Dequeue element from the front of the queue
 // Removes and returns the first element
