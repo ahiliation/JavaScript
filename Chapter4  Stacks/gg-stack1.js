@@ -12,8 +12,8 @@ console.log(stack);
 // pop() to remove elements (LIFO)
 console.log("\nElements popped from stack:");
 console.log(stack.pop());
-// console.log(stack.pop());
-// console.log(stack.pop());
+console.log(stack.pop());
+console.log(stack.pop());
 
 // Stack is now empty
 console.log("\nStack after elements are popped:");
