@@ -21,4 +21,4 @@ console.log(stack);
 
 // Uncommenting the line below will return undefined since
 // stack is empty
-// console.log(stack.pop());
+console.log(stack.pop());
