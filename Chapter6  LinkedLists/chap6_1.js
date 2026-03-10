@@ -24,3 +24,5 @@ while (temp !== null) {
     process.stdout.write(temp.data + " ");
     temp = temp.next;
 }
+
+console.log("\n");
