@@ -1,4 +1,4 @@
-// Doubly Linked list Node
+// Doubly Linked list Node?';
 class Node {
        // Constructor to create a new node
     // next and prev is by default initialized as null
@@ -36,24 +36,26 @@ class DoublyLinkedList {
         
         // Create a temporary variable
         let temp = new Node(val);
-      //  console.log(typeof temp);
-      //  console.log(temp);
+       //  console.log(typeof temp);
+       //  console.log(temp);
         // If the list is empty link assign
         // new node to both head and tail
         if (this.head == null) {
             this.head = temp;
-	//  console.log(temp);
-            this.tail = temp;
+	  // console.log(temp);
+
+	    this.tail = temp;
+	 //   console.log(temp);
         }
 
         // else add item to the tail and shift tail
         else {
 	    // Link the new node to the current tail
 	    this.prev = this.tail;
-	    
+	        
             this.tail.next = temp;
-	  //  console.log(temp);
             this.tail = temp;
+	   //  console.log(temp);
         }
     }
 
