@@ -48,9 +48,12 @@ class DoublyLinkedList {
 
         // else add item to the tail and shift tail
         else {
+	    // Link the new node to the current tail
+	    this.prev = this.tail;
+	    
             this.tail.next = temp;
 	  //  console.log(temp);
-            this.tail = this.tail.next;
+            this.tail = temp;
         }
     }
 
