@@ -41,8 +41,9 @@ class DoublyLinkedList {
         // If the list is empty link assign
         // new node to both head and tail
         if (this.head == null) {
+	  //  console.log(this.head);
             this.head = temp;
-	  // console.log(temp);
+	   console.log(this.head);
 
 	    this.tail = temp;
 	 //   console.log(temp);
@@ -51,6 +52,7 @@ class DoublyLinkedList {
         // else add item to the tail and shift tail
         else {
 	    // Link the new node to the current tail
+	    
 	    this.prev = this.tail;
 	        
             this.tail.next = temp;
