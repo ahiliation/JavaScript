@@ -10,7 +10,7 @@ class Node:
 def traverse(head):
     # Traverse the doubly linked list and print its elements
     current = head
-    print("current", head)
+  #  print("current", head)
     while current:
       # Print current node's data
         print(current.data, end=" <-> ")
