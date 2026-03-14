@@ -27,7 +27,8 @@ def insert_at_beginning(head, data):
     if head:
       #  print("head", head)
         head.prev = new_node
-     #  print("head.prev", head.prev)
+        # print("head.prev", head.prev)
+       #  print("new_node", new_node)
     return new_node
 
 
