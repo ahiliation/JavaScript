@@ -13,8 +13,8 @@ def printInorder(root):
     print(root.left)
     print(root.data, end = " ")
     printInorder(root.right)
-    print(root.right
-          ) 
+    print(root.right)
+    
 if __name__ == '__main__':
     
     # Construct Binary Tree of 4 nodes
